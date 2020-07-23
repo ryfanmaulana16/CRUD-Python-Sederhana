@@ -2,10 +2,11 @@ import mysql.connector
 import os
 
 db = mysql.connector.connect(
-  host="localhost",
-  user="root",
+  #Masukkan Sesuai Data
+  host="",
+  user="",
   passwd="",
-  database="belajarpy"
+  database=""
 )
 
 def insertData(db):
